@@ -18,14 +18,12 @@ public class Main {
         } ;
 
         for (int width=0;width<5;width++){
-//            for (int height=0;height<2;height++){
-//                System.out.println(height+" "+width);
-//
-//                totalSurfaceArea=widthAndHeightOfWall[width][]
-//
-//            }
 
             totalSurfaceArea+=widthAndHeightOfWall[width][0]*widthAndHeightOfWall[width][1];
         }
+
+        int liters=totalSurfaceArea/surfaceAreaPerLiter;
+
+        System.out.println(" liters" +liters);
     }
 }
